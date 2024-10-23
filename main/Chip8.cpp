@@ -644,7 +644,7 @@ void Chip8::LoadROM(char const* filename)
     // Open the file as a stream of binary and move the file pointer to the end
     std::ifstream file(filename, std::ios::binary | std::ios::ate);
 
-    if (file.is_open)
+    if (file.is_open())
     {
         // Get size of file and allocate a buffer to hold the contents
         std::streampos size = file.tellg();
