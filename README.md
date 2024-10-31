@@ -25,8 +25,29 @@ To build and run the emulator, you need to have a C++ compiler and CMake install
    ```sh
    git clone https://github.com/Bruno-BRG/CHIP-8.git
    cd CHIP-8
-   ```
-  mkdir build
-  cd build
-  cmake ..
-  make
+
+Public code references from 1 repository
+
+    Build the project:
+
+    mkdir build
+    cd build
+    cmake ..
+    make
+
+Usage
+
+To run a CHIP-8 program, use the following command:
+
+./chip8 path/to/program.ch8
+
+Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+You can add this content to your README.md file to provide a comprehensive overview of your project.
+
